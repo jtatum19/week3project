@@ -1,0 +1,145 @@
+/* quite self explanatory. had to do some research on font styles is all*/
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(11, 161, 211);
+  }
+/* added a margin of zero as i wanted it to separate but not too much*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    filter: drop-shadow(2px 2px 1px #fbfffd);
+}
+h2 {
+    text-align: center;
+    filter: drop-shadow(2px 2px 1px #fbfffd);
+}
+/* added margin bopttom to create space below title*/
+.tie-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tie-list-ul {
+    text-align:center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+/* added margin bottom to add space between list items*/
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.page2-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+/*light gray for visual appealing and also padding*/
+th{
+    background-color: rgb(85, 84, 84);
+    padding: 10px;
+    text-align: left;
+
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+/* added margin for spacing*/
+.form-contact {
+    text-align: center;
+    margin-top: 50px;
+}
+form {
+    margin-top: 20px;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="tel"] {
+    padding: 6px;
+    margin-bottom: 20px;
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid #d4d2d2;
+}
+input[type="submit"] {
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+/* below I added algin items to ensure it was centered. a column to go one after another. flex to ensure 
+it would be able on multiple lines. box shadow to make the img area aesthetically pleasing. */
+.img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+/* i added hover to have the page react to your cursor*/
+img:hover {
+    transform: scale(1.05);
+}
+/* added a font size as well as a line height that looked good */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* I added italic style font for anything in Em element */
+em {
+    color: #011a0f;
+    font-style: italic;
+}
+/* this was tricky. i had some trouble trying to get the nav pages to center. quick jump to MDN*/
+.a-center {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.a2-center {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/* wanted to add an interaction where the color changes over the navigable link*/
+nav a:hover {
+    color: #224466;
+}
+/* make sure this was centered is all*/
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

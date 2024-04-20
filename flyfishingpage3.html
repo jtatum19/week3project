@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations</title>
+    <link rel="stylesheet" href="flyfishing.css">
+</head>
+<body>
+    <main>
+        <div>
+    <h2><em>Some Fishing Destinations and the Type of Water</em></h2>
+    <table> 
+        <!----Below is a table that i created to show some different types of fishing in the US.
+        I added a column span although i dont think it necessary. I added it for good practice and be able to use it in practice.---->
+
+        <tr> 
+            <th colspan="1">Destinations</th>
+            <th colspan="1">Type of water</th>
+        </tr>
+        <tr>
+            <td>Idaho</td>
+            <td>Rivers, Lakes, Streams</td>
+            </tr>
+            <tr>
+            <td>Montana</td>
+            <td>Rivers, Lakes, Streams</td>
+            </tr>
+            <tr>
+            <td>Louisiana</td>
+            <td>Marshes, Bayous, Saltwater</td>
+            </tr>
+            <tr>
+            <td>Florida</td>
+            <td>Rivers, Lakes, Saltwater</td>
+            </tr>
+        </tr>
+
+    </table>
+    </div>
+</main>
+<!---below is a form that i created for consumer to be able to fill out their contact info. note that i added in 
+pattern so that they have to input numbers only-->
+<h2>Stay in the Loop!</h2>
+<div class="form-contact">
+<p> please fill out your contact information so that you can stay up to date with our blogs!</p>
+<form method="post" action="">
+    <label for="name"> First Name: </label>
+<input type="text" name="name" id="name" required>
+<br>
+    <label for="name"> Last Name:</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+<label for="phone_number">Phone Number:</label>
+<input type="tel"id="phone_number" pattern="[0-9]{10}" required>
+<br>
+</div>
+<input type="submit">
+</form>
+</body>
+</html>
